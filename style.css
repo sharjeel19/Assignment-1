@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+    background-image: url("photo/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100vh;
+
+}
+
+.align-center{
+    padding-top:250px;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color:white;
+}
+
+.text-red{
+    color:tomato;
+}
+
+.display-1{
+    font-family: poppins;
+    font-size:54px;
+}
+
+.display-2{
+    font-size:20px;
+}
+
+.btn{
+    padding: 16px 32px;
+    font-size: 26px;
+    border:none;
+}
+
+.btn-red{
+    background-color:red;
+    color:white;
+   
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-green{
+    background-color: green;
+}
+.btn-green:hover{
+    background-color: lightgreen;
+}
+
+.btn-dark{
+    background-color:black;
+    color:white;
+}
+
+button#exploreBtn:hover{
+    background-color: black;
+}
+
+button#joinBtn:hover{
+    background-color: red;
+}
+
+
+
+.flex-container{
+   
+    display: flex;
+    align-items: stretch;
+    height: 500px;
+    
+}
+
+.box{
+    padding:30px;
+    margin:10px;
+    font-size: 23px;
+    width: 50%;
+    text-align: center;
+}
+
+.box-service{
+    padding:20px;
+    margin:10px;
+    font-size: 20px;
+    width: 33%;
+    text-align: center;
+}
+
+.box-contact{
+    padding:20px;
+    margin:10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.navbar{
+    display: flex;
+    background-color:#3a3a3a;
+    position: sticky;
+    top: 0;
+}
+
+nav.navbar > a{
+    padding:20px;
+    color:white;
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+
+nav.navbar > a:hover{
+    background-color:white;
+    color:#3a3a3a;
+    transition: ease-in-out 0.5s;
+}
+
+footer{
+    background-color: #3a3a3a;
+    height: 18px;
+    text-align: center;
+;
+  
+}
+
+h4{
+    color: white;
+    
+}
